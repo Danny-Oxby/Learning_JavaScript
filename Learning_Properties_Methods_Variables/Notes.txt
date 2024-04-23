@@ -6,9 +6,15 @@ Javascript regions are done in the comments using '//#region name' and '//#endre
 in JavaScript property values, defined by let, are dynamic allowing them to be changed during runtime
 this means a let intVar = 3 can leter be changed to intVar = 'three' without issue
 
+onbjects properties can be access using two methods
+the dot. method << object.property << for general usage
+the ['bracket'] method << object['property'] << for when you dont know the target at runtime e.g. searches << searching for a property that dosn't exist here will retrun undefined
 
 Keywords:
 
 let << property decleration, not type safe, this is for all property types
 const << a constant property, unchangnable, any changes will though a console error
 typeof << function to retunr the string name matching a properties name
+{} << object dinotion, putting 'let x = {}' defines x as a type of object
+[] << array decleration
+function << method/function decleration
