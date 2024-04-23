@@ -1,0 +1,14 @@
+{
+  "name": "learning_properties_methods_variables",
+  "version": "0.0.0",
+  "description": "Learning_Properties_Methods_Variables",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}

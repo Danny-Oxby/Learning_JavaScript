@@ -1,0 +1,14 @@
+Javascript code can be run in the projects powershell console
+by typing 'node name.js' where name is the file name
+
+Javascript regions are done in the comments using '//#region name' and '//#endregion'
+
+in JavaScript property values, defined by let, are dynamic allowing them to be changed during runtime
+this means a let intVar = 3 can leter be changed to intVar = 'three' without issue
+
+
+Keywords:
+
+let << property decleration, not type safe, this is for all property types
+const << a constant property, unchangnable, any changes will though a console error
+typeof << function to retunr the string name matching a properties name
